@@ -41,7 +41,7 @@ function callOnClick(place, i) {
       place.classList.add('taken');
       moveArray[i] = token;
       var result = checkResult();
-      if (turn == 9)
+      if (turn == 9 && result == "not-end")
         document.querySelector('.statement').innerHTML = "The game is a Draw.<br>Thanks for playing."
       else if (result == 'not-end')
         document.querySelector('.statement').innerHTML = antiToken + " TO PLAY NEXT."
