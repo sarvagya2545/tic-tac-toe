@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   text-align: center;
-  background-color: #beebe9;
-  font-family: 'Play', sans-serif;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -9,7 +12,7 @@ body {
 h1 {
   display: block;
   width: auto;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -21,7 +24,7 @@ ul {
 .statement {
   font-size: 30px;
   margin-top: 30px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .play-area {
