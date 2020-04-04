@@ -51,7 +51,7 @@ function callOnClick(place, i) {
         gameOver();
       }
     } else {
-      alert("Please use don't use filled spots");
+      alert("Please don't use filled spots");
     }
   }
   else
